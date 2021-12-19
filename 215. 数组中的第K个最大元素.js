@@ -11,7 +11,6 @@ function partition2(arr, low, high) {
     arr[high] = arr[low];
   }
   arr[low] = pivot;
-  console.log(arr);
   return low;
 }
 
